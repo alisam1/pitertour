@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <title>PiterTour</title>
+  </head>
+  <body>
+    <main>
+      <section class="welcome">
+        <div class="welcome__block">
+          <div class="welcome__content">
+            <h1 class="welcome__title">Welcome Page</h1>
+            <p class="welcome__description">Sign in to continue access pages</p>
+          </div>
+          <div class="welcome__form">
+            <h3 class="welcome__form-title">Sign In</h3>
+            <p class="welcome__form-description">
+              Sign in to continue access pages
+            </p>
+            <form>
+              <input type="email" placeholder="Email Address" id="email" onKeyDown="validate()">
+              <input id="password" type="password" placeholder="Password">
+              <input type="submit" value="CONTINUE">
+            </form>
+            <p class="welcome__form-disclaimer">or Connect with Social Media</p>
+            <a href="" class="welcome__form-twitter">Sign In With Twitter</a>
+            <a href="" class="welcome__form-fb">Sign In With Facebook</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/check.js"></script>
+  </body>
+</html>
